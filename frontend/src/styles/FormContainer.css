@@ -1,0 +1,47 @@
+.form-content {
+	padding: 10px;
+}
+
+.top-lf-form {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 40px;
+}
+.top-rg-form {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 40px;
+	margin-top: 20px;
+}
+.cen {
+	margin-top: 30px;
+}
+.form-bot-content {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 40px;
+}
+.left-bot {
+	display: flex;
+	flex-direction: column;
+}
+.input-field {
+	background: rgba(196, 196, 196, 0.63);
+	border: 1px solid rgba(0, 0, 0, 0.01);
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	border-radius: 10px;
+	margin-top: 10px;
+}
+.input-field.subject {
+	width: 50%;
+}
+.left-bot label {
+	text-align: left;
+	margin-top: 20px;
+}
+.label {
+	padding-right: 10px;
+}

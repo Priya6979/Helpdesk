@@ -1,0 +1,11 @@
+.icon-media {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	gap: 15px;
+}
+.sideNav {
+	width: 20%;
+	height: 100vh;
+	background: rgba(106, 103, 103, 0.21);
+}
