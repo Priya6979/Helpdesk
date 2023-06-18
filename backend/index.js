@@ -11,6 +11,7 @@ const persons = [];
 console.log(persons);
 app.post('/signup', (req, res) => {
 	console.log('hdhdhh', req.body);
+	res.setHeader("Access-Control-Allow-Credentials","true");
 	persons.push(req.body);
 	console.log(persons);
 	res.status(200).json({ message: 'successfully registered' });
